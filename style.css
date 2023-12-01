@@ -298,10 +298,14 @@ header ul li:hover a {
     #home{
         display: flex;
         justify-content: space-between;
+
     }
 
+
+
+
     #home .content{
-        margin-top: -40px;
+        margin-top: -250px;
     }
 
     #home .content h2{
@@ -321,11 +325,11 @@ header ul li:hover a {
         content: '';
         bottom: 0;
         right: 0;
-        width: 50vw;
-        height: 25vw;
+        width: 65vw;
+        height: 40vw;
         background: #30fe6c;
-        border-top-right-radius: 25vw;
-        border-top-left-radius: 25vw;
+        border-top-right-radius: 35vw;
+        border-top-left-radius: 35vw;
     }
 
     .btn{
@@ -337,14 +341,16 @@ header ul li:hover a {
         margin-left: -50px;
         margin-top: 50px;
         letter-spacing: 0.01em;
+        
     }
 
     #home .men{
         display: flex;
         flex-direction: column;
+        bottom: 0;
         justify-content: space-between;
         max-height: 44vh;
-        right: -1px;
+        right: 5px;
     }
 
     #service,
@@ -364,6 +370,7 @@ header ul li:hover a {
         
     }
 
+
     #service .content{
         grid-template-columns: repeat(2,1fr);
     }
@@ -377,13 +384,29 @@ header ul li:hover a {
         border: 2px solid #2e2f34;
         gap: 20px;
     }
+
+    .center{
+        position: relative;
+        display: inline-block;
+        font-size: 1em;
+        max-width: 140px;
+        padding: 10px 22px;
+        margin-left: 130px;
+        margin-top: -55px;
+        letter-spacing: 0.01em;
+    }
+
+    #portfolio .text{
+        top: 30px;
+    }
     
     #portfolio .content{
         grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
     }
 
     #portfolio .content img{
-        max-width: 100px;
+        max-width: 140px;
     }
 
     #contact .content{
@@ -392,7 +415,7 @@ header ul li:hover a {
 
     .copyright{
         margin-top: 80px;
-        font-size: 1em;
+        font-size: 0.70em;
     }
 
 
