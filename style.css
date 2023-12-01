@@ -289,9 +289,10 @@ header ul li:hover a {
     }
 
     .toggel{
+        overflow: hidden;
         display: block;
         color: #fff;
-        margin-right: -70px;
+        margin-right: -60px;
     }
 
     #home{
@@ -299,10 +300,9 @@ header ul li:hover a {
         justify-content: space-between;
     }
 
-    #home .content a{
-        
+    #home .content{
+        margin-top: -40px;
     }
-
 
     #home .content h2{
         font-size: 2em;
@@ -344,7 +344,7 @@ header ul li:hover a {
         flex-direction: column;
         justify-content: space-between;
         max-height: 44vh;
-        right: -16px;
+        right: -1px;
     }
 
     #service,
@@ -392,7 +392,9 @@ header ul li:hover a {
 
     .copyright{
         margin-top: 80px;
+        font-size: 1em;
     }
+
 
 }
  
