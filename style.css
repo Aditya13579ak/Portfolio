@@ -292,9 +292,9 @@ header ul li:hover a {
         overflow: hidden;
         display: block;
         color: #fff;
-        margin-right: -60px;
+        margin-right: 0px;
     }
-
+    
     #home{
         display: flex;
         justify-content: space-between;
@@ -349,7 +349,8 @@ header ul li:hover a {
         flex-direction: column;
         bottom: 0;
         justify-content: space-between;
-        max-height: 50vh;
+        max-height: 45vh;
+        right: -20px;
     }
 
     #service,
@@ -390,7 +391,7 @@ header ul li:hover a {
         font-size: 1em;
         max-width: 140px;
         padding: 10px 22px;
-        margin-left: 155px;
+        margin-left: 137px;
         margin-top: -55px;
         letter-spacing: 0.01em;
     }
