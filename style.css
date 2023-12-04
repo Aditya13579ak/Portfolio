@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
@@ -292,7 +293,7 @@ header ul li:hover a {
         overflow: hidden;
         display: block;
         color: #fff;
-        margin-right: 0px;
+        margin-right: -50px;
     }
     
     #home{
@@ -324,7 +325,7 @@ header ul li:hover a {
         position: absolute;
         content: '';
         bottom: 0;
-        right: 0;
+        right: 10px;
         width: 55vw;
         height: 25vw;
         background: #30fe6c;
@@ -415,7 +416,7 @@ header ul li:hover a {
 
     .copyright{
         width: 300px;
-        left: -100px;
+        left: -129px;
         font-size: 1em;
     }
 
